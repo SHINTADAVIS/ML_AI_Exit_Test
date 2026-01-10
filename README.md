@@ -43,25 +43,30 @@ pip install -r requirements.txt
   The script will detect faces, recognize emotions, and annotate frames.  
   An output video will be saved (default: Emotions.avi).  
 
+### Requirements  
+Python 3.x  
+OpenCV (opencv-python)  
+DeepFace (deepface)  
+TensorFlow (tensorflow)  
+Pandas (pandas)  
+NumPy (numpy)  
+Pillow (Pillow)  
+MTCNN (mtcnn)  
+RetinaFace (retina-face)  
 
+All dependencies are included in requirements.txt.  
 
-   
-        
+### Notes
+No video file is included in this repository due to size constraints.  
+You can use any MP4 video with faces to test the project.  
+The original Colab notebook is in notebooks/.  
 
-#### Requirements
+### Sample Output
 
-Install the following dependencies: 
+Recognized emotions will be annotated on video frames.  
 
-    !pip install deepface opencv-python
-    
-DeepFace automatically installs required backend frameworks (TensorFlow, Keras, etc.) if not already present.  
-
-#### Notes and Recommendations
-
-If the video has more than 5000 frames, adjust the loop limit:  
-
-    for i in range(int(capture.get(cv2.CAP_PROP_FRAME_COUNT))):
-    
-To speed up processing, consider analyzing every Nth frame instead of all frames.    
-GPU acceleration is recommended for faster DeepFace inference (available in Google Colab)  
+Expected behavior:  
+Faces detected and highlighted with rectangles.  
+Dominant emotion displayed on each face.  
+Output video saved as Emotions.avi.  
 
