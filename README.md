@@ -20,7 +20,7 @@ The goal of this project is to:
 
 ### 1. Clone the repository
    
-git clone https://github.com/YOUR_USERNAME/DeepFace_Emotion.git
+git clone https://github.com/YOUR_USERNAME/DeepFace_Emotion.git  
 cd DeepFace_Emotion  
 
 ### 2. Install Python dependencies  
@@ -29,15 +29,15 @@ pip install -r requirements.txt
 
 ### Usage  
 
-1.Provide an MP4 video for testing:  
+#### 1.Provide an MP4 video for testing:  
 
   Create a folder named data.      
   Place your video inside data/ (e.g., data/video.mp4).      
 
-2.Update the script src/emotion_analysis.py with the video path:  
+#### 2.Update the script src/emotion_analysis.py with the video path:  
   video_path = "data/video.mp4"   # Replace with your video path  
 
-3.Run the Python script:  
+#### 3.Run the Python script:  
   python src/emotion_analysis.py  
   
   The script will detect faces, recognize emotions, and annotate frames.  
