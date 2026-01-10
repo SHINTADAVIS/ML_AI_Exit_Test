@@ -1,6 +1,6 @@
 # Automated Emotion Detection from a video
 
-**Course Exit Test Project – ML & AI Program**
+**Course Exit Test Project – Certified Specialist in Machine Learning and Artificial Intelligence program by ICT Academy of Kerala in association with Kerala Knowledge Economy Mission (KKEM).**
 
 ## Emotion Detection from Video using DeepFace and OpenCV
 
