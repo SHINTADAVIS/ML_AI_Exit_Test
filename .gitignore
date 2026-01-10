@@ -1,0 +1,9 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter/Colab checkpoints
+.ipynb_checkpoints/
+
+# Data folder (videos, images, large files)
+data/
