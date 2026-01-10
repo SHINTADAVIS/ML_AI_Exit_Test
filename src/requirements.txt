@@ -1,8 +1,0 @@
-opencv-python
-deepface
-tensorflow
-pandas
-numpy
-mtcnn
-retina-face
-Pillow
